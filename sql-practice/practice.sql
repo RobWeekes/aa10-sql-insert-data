@@ -7,4 +7,11 @@ CREATE TABLE friends (
 );
 
 INSERT INTO friends (first_name, last_name)
-VALUES ('Amy', 'Pond');
+VALUES ('Amy', 'Pond'),
+    ('Rose', 'Tyler'),
+    ('Martha', 'Jones'),
+    ('Donna', 'Noble'),
+    ('River', 'Song');
+
+INSERT INTO friends (id, first_name, last_name)
+VALUES (6, 'Jenny', 'Who');
